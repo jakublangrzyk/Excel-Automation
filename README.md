@@ -17,7 +17,10 @@ W tym projekcie pokazuję, jak z pomocą **Power Query** i **tabel przestawnych*
 - Power Query pozwala również na pobieranie danych bezpośrednio ze stron internetowych lub API.  
 - W tym projekcie wykorzystałem API NBP, kursy walut są automatycznie pobierane i łączone z fakturami.  
 Przy każdym uruchomieniu raportu Power Query pobiera aktualne kursy, dzięki czemu wartości faktur w EUR i USD są od razu przeliczane na PLN.  
-![Kursy walut NBP](images/KursEuro.png)
+<p float="left">
+  <img src="images/CleanData.png" width="400" />
+</p>
+
 
 5. **Przykłady użycia zaawansowanych formuł**
 Formuła wyszukująca określone produkty w danej kolumnie.
@@ -57,7 +60,9 @@ Formuła wyszukująca dane w wielu kolumnach.
 ```
 ### Raport końcowy – tabela przestawna
 Tabela przedstawia zestawienie liczby sztuk i wartości produktów w podziale na oddziały firmy.  
-![Tabela przestawna](images/CleanData.png)
+<p float="left">
+  <img src="images/CleanData.png" width="400" />
+</p>
 
 ## Korzyści 
 - Możliwość przyjmowania wielu faktur jednocześnie, proces szybszy i skalowalny, 
